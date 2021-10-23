@@ -1,0 +1,8 @@
+
+C:\data\c++\httpServer-1\build\render.exe -vsync 1 -v debug -f image2 -y -r 20 -i "C:\data\c++\httpServer-1\build\data\F23\file.txt" -vcodec libx264 -preset medium -pix_fmt yuv420p -crf 28 -t 1 -strict -2 "C:\data\c++\httpServer-1\build\out\F23\section_0_1.mp4"
+
+C:\data\c++\httpServer-1\build\render.exe -vsync 1 -v debug -f image2 -y -r 20 -i "C:\data\c++\httpServer-1\build\data\F23\s2_img_%05d.jpeg" -vcodec libx264 -preset medium -pix_fmt yuv420p -crf 28 -t 1 -strict -2 "C:\data\c++\httpServer-1\build\out\F23\section_0_1.mp4"
+
+C:\data\c++\httpServer-1\build\render.exe -vsync 1 -v debug -f concat -safe 0 -i "C:\data\c++\httpServer-1\build\out\F23\concat.txt" -c copy "C:\data\c++\httpServer-1\build\out\F23\common_0.mp4"
+
+
